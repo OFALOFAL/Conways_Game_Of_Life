@@ -24,13 +24,4 @@ void main()
     vec3 color = vec3(cell_state);
 
     gl_FragColor = vec4(color, 1.0);
-
-//    float rnd = random(vec2(gl_FragCoord.x/screenSize, gl_FragCoord.y/screenSize));
-//
-//    gl_FragColor = vec4(vec3(rnd),1.0);
-
-//    if(gl_FragCoord.x < screenSize/2)
-//        gl_FragColor = vec4(1.0, 0.0, 0.0, 1.0);
-//    else
-//        gl_FragColor = vec4(0.0, 1.0, 0.0, 1.0);
 }
