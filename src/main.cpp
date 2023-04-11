@@ -118,9 +118,9 @@ int main() {
 
     int table_size = 676;
 
-    int pixelSize = 32;
-    int ps_loc = glGetUniformLocation(shader, "u_PixelSize");
-    glUniform1i(ps_loc, pixelSize);
+    int cellSize = 32;
+    int ps_loc = glGetUniformLocation(shader, "u_CellSize");
+    glUniform1i(ps_loc, cellSize);
 
     int table_width = sqrt(table_size);
     int tw_loc = glGetUniformLocation(shader, "u_TableWidth");
